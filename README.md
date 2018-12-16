@@ -21,6 +21,7 @@ npm i discord.js ffmpeg-binaries node-opus opusscript moment moment-duration-for
 All in one line & if that doesn't do it, try installing them seperately.
 
 **Running The Bot**
+
 I wouldn't suggest running with shard.js unless you plan on having it on 1,000+ servers.
 ```
 node moe.js
