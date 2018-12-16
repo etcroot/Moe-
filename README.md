@@ -1,6 +1,8 @@
 # Moe-
 Code is very messy but oh well.
 
+https://discord.gg/M6hRKwF
+
 ### Self-Hosting
 **Configuration**
 ```
