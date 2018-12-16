@@ -14,7 +14,7 @@ exports.run = (client, message, args) => {
     .addField('__Channels__', client.channels.size, true)
     .addField('__Uptime__', moment.duration(client.uptime).format('d[d ]h[h ]m[m ]s[s]'), true)
     .addField('__Memory Usage__', `${Math.round(process.memoryUsage().heapUsed / 1024 / 1024)}MB`, true)
-    .addField('__Prefix__', '`mr.`', true)
+    .addField('__Prefix__', `\`${config.prefix}\``, true)
     .addField('__Developer__', '<@484765734803734540>', true)
     .setFooter('Moe | By: etcroot#7884')
     .setColor('#A65EA5')

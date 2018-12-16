@@ -15,7 +15,7 @@ exports.run = (client, message, args) => {
     **${config.prefix}invite** → Invite Moe.
     **${config.prefix}support** → Moe's Official Server.
     `])
-    .addField('__Music Commands__', `**${config.prefix}kpop** → Play KPOP Stream.\n**${config.prefix}jpop** → Play JPOP Stream.\n**${config.prefix}leave** → Leave author VC.`, false)
+    .addField('__Music Commands__', `**${config.prefix}kpop** → Play KPOP Stream.\n**${config.prefix}jpop** → Play JPOP Stream.**\n${config.prefix}qt** → Play qtradio.moe (beta).\n**${config.prefix}leave** → Leave author VC.\n**${config.prefix}join** → Join author VC.\n**${config.prefix}volume** → Set playback volume.`, false)
     .addField('__Other Commands__', `**${config.prefix}anime** → Search or get random anime.\n**${config.prefix}manga** → Search manga's.\n**${config.prefix}moe** → Random Moe's.\n**${config.prefix}meme** → Random anime memes.\n**${config.prefix}calc** → Calculate weebness.`, false)
 return message.channel.send(embed);
 
