@@ -22,12 +22,12 @@ All in one line & if that doesn't do it, try installing them seperately.
 
 **Running The Bot**
 ```
-node index.js
+node shard.js
 ```
 Run with autorestart
 ```
 npm i -g pm2
-pm2 start index.js
-pm2 restart index.js
-pm2 stop index.js
+pm2 start shard.js
+pm2 restart shard.js
+pm2 stop shard.js
 ```
