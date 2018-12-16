@@ -1,5 +1,5 @@
 # Moe-
-Listen.moe Discord Streaming Bot
+Code is very messy but oh well.
 
 ### Self-Hosting
 **Configuration**
