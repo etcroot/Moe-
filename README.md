@@ -14,18 +14,12 @@ Listen.moe Discord Streaming Bot
 ```
 npm i
 ```
-If that doesn't work, use these.
+If that doesn't work, do this.
 ```
-npm i discord.js
-npm i ffmpeg-binaries
-npm i node-opus
-npm i opusscript
-npm i moment
-npm i moment-duration-format
-npm i random-puppy
-npm i kitsu.js
-npm i animequote
+npm i discord.js ffmpeg-binaries node-opus opusscript moment moment-duration-format random-puppy kitsu.js animequote
 ```
+All in one line & if that doesn't do it, try installing them seperately.
+
 **Running The Bot**
 ```
 node index.js
